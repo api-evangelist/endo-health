@@ -1,23 +1,61 @@
 aid: endo-health
 name: Endo Health
-description: Endo Health is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Endo Health is building Glow, an AI-native clinic for women's weight loss.
+  Describing itself as "the emotional layer of healthcare" and aiming to "make
+  health addictive," the company treats the drivers behind symptoms rather than
+  the symptoms alone, delivering conversational, connection-first care through a
+  mobile health app. Its stated mission is to advance human lifespan by one year.
+  Endo Health is backed by General Catalyst and a16z Speedrun, with teams in San
+  Francisco and Seoul. This is a consumer digital-health product; no public API,
+  developer portal, or documentation surface has been published at this time.
 url: https://raw.githubusercontent.com/api-evangelist/endo-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://endohealth.ai/logo_large_transparent.png
 x-type: company
 x-source: vc-portfolio
+x-product: Glow
 x-backed-by:
 - general-catalyst
+- a16z-speedrun
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Health
+- Healthcare
+- Weight Loss
+- Women's Health
+- Artificial Intelligence
+- Digital Health
+- Consumer Health
+- Telehealth
 apis: []
+common:
+- type: Website
+  url: https://endohealth.ai
+- type: Careers
+  url: https://endohealth.ai/careers
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
