@@ -10,6 +10,17 @@ description: >-
   Francisco and Seoul. This is a consumer digital-health product; no public API,
   developer portal, or documentation surface has been published at this time.
 url: https://raw.githubusercontent.com/api-evangelist/endo-health/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
